@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Streamlit config (if you ever add local secrets here)
+.streamlit/secrets.toml
+
+# OS / IDE
+.DS_Store
+.vscode/
+
+# Ignore large downloaded model files if they get downloaded here locally
+models/
+*.pt
+*.bin
+*.h5
